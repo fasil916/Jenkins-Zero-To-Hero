@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: abhishekf5/ultimate-cicd:replaceImageTag
+        image: 311141542585.dkr.ecr.us-east-1.amazonaws.com/spring-boot-app:replaceImageTag
         ports:
         - containerPort: 8080
